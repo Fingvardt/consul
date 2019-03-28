@@ -23,6 +23,7 @@ module Consul
       "ar",
       "de",
       "en",
+      "da",
       "es",
       "fa",
       "fr",
@@ -44,6 +45,7 @@ module Consul
     config.i18n.available_locales = available_locales
     config.i18n.fallbacks = {
       "fr"    => "es",
+      "da"    => "en",
       "gl"    => "es",
       "it"    => "es",
       "pt-BR" => "es"
